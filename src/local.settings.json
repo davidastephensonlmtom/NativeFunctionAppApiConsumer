@@ -1,0 +1,15 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true", // Replace with Azure Storage Account Connection String when deployed on Azure
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "AzureActiveDirectoryId": "",//{Enter Gateway AAD Tenant ID}
+    "BaseOAuthEndPointUrl": "https://login.microsoftonline.com/{0}/oauth2",
+    "ClientId": "", //"{Enter Application ID of registered native App in Gateway AAD}",
+    "NativeUserName": "", //"{Enter Service Account username present as guest user in Gateway AAD}",
+    "NativeUserPassword": "", //"{Enter Service Account password present as guest user in Gateway AAD}",
+    "Resource": "", //"{Enter the URL of the Resource for which access token is needed}",
+    "CertificateThumbprint": "", //"{The thumprint of the certificate installed in Cert Store and intended to be used as client certificate}",
+    "TargetApiEndpoint": "" //"{Enter the full API endpoint URL}"
+  }
+}
